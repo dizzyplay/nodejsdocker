@@ -1,0 +1,8 @@
+{
+  "name": "exampleapp",
+  "version": "1.0.0",
+  "description": "hello docker",
+  "main": "app.js",
+  "author": "dizzyplay <vovoboss@gmail.com>",
+  "license": "MIT"
+}
