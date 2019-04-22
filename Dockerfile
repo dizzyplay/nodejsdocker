@@ -1,12 +1,11 @@
-FROM ubuntu:16.04
+FROM node:lts
 
 RUN apt-get update
-RUN apt-get install -y nodejs npm 
 
 ADD app.js /var/www/app.js
-ADD package.json /var/www/package.json
+ADD . /var/www/
 
 WORKDIR /var/www
-RUN npm install
+RUN yarn
 
 CMD nodejs app.js

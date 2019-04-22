@@ -6,6 +6,6 @@ app.get(['/', '/index.html'], function(req, res) {
 });
 
 app.get('/hello',function(req,res){
-  res.send(`hello ${res}`)
+  res.send(`hello another test...!`)
 })
 app.listen(3006);
